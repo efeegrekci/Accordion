@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sofia Pro'), url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Regular Az.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Sofia Pro'), url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Light Az.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Sofia Pro'), url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Medium Az.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Sofia Pro'), url('https://fonts.cdnfonts.com/s/14903/Sofia Pro Semi Bold Az.woff') format('woff');
+}
