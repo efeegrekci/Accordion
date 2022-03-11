@@ -6,7 +6,7 @@ body{font-family: 'Sofia Pro';background-color: #1d1d1d;}
     .container{ width: 1060px; margin: 0 auto;
         h1{font-weight: 500;font-size: 50px; color: #ffffff; text-align: center; margin: 0 0 30px 0;}
         .accordion{width: 100%;
-            .accordionColumn{ margin: 0 0 15px 0; overflow: hidden;  transition: height .4s ease-in-out; border-radius: 8px;
+            .accordionItem{ margin: 0 0 15px 0; overflow: hidden;  transition: height .4s ease-in-out; border-radius: 8px;
                 &:nth-child(3n+3){
                     .title{background-color: #0ACF83 ;}
                 }
@@ -53,7 +53,7 @@ body{font-family: 'Sofia Pro';background-color: #1d1d1d;}
         .container{
         h1{font-size: 40px;}
             .accordion{
-                .accordionColumn{ margin: 0 0 10px 0;
+                .accordionItem{ margin: 0 0 10px 0;
                     .title{font-size: 20px; line-height: 26px; padding:15px 65px 15px 25px;
                         &::before{width: 20px; height: 20px; background-size: contain; right: 25px; top: calc(50% - 10px);}
                     }
@@ -68,7 +68,7 @@ body{font-family: 'Sofia Pro';background-color: #1d1d1d;}
         .container{padding: 0 15px;
             h1{font-size: 30px;}
             .accordion{
-                .accordionColumn{ margin: 0 0 5px 0;
+                .accordionItem{ margin: 0 0 5px 0;
                     &.open{
                         .title{ 
                             &::before{ height: 1px; top: calc(50% - 0.5px);}
